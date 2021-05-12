@@ -50,7 +50,7 @@ Given the available two years data, predict the total sales of a retail company 
 | Linear Regression         | 4.7106    | 5.9428     | 11.1154    |
 | **Gradient Boosted Tree** | **4.515** | 6.3696     | **2.4636** |
 
-From the results table, we can find GBT model has the best performance, even though it fall short in the 2 weeks prediction window. The prediction and true label comparison plots as below:
+From the results table, we can find GBT model has the best performance, even though it falls short in the 2 weeks prediction window. The prediction and true label comparison plots as below:
 
 Gradient Boosted Tree model prediction for **1 week** window:
 
@@ -239,4 +239,4 @@ The simple moving average is a statistical model that calculates the unweighted 
 
 ### 6. Limitations
 
-For this project, our sample size is too small (143 rows), which makes it harder to capture seasonality as well as allow machine learning to capture other potential patterns in the dataset. Our recommendation to improve the results for this project is: Increase the size of the dataset Merge other macro-economy data related to retail store sales and use them as new features to predict. And this requires digging into the background of this company (it’s not available in this study because the company is anonymized).
+For this project, our sample size is too small (143 rows), which makes it harder to capture seasonality as well as allowing machine learning to capture other potential patterns in the dataset. Our recommendation to improve the results for this project is: Increase the size of the dataset Merge other macro-economy data related to retail store sales and use them as new features to predict. And this requires digging into the background of this company (it’s not available in this study because the company is anonymized).
