@@ -36,11 +36,11 @@ Databrick notebook in Spark Scala: https://georgehua.github.io/spark-retail-sale
 
 **Goal:** 
 
-Given the available two years data, predict the total sales of a retail company over the next 1 week, 2 weeks and 3 weeks. The evaluation measure is sMAPE.
+Given the available two years data, predict the total sales of a retail company over the next 1 week, 2 weeks and 3 weeks. The evaluation measure is [**sMAPE**](#36-evaluation-metrics---smape).
 
 
 
-**Final Model Accuracy Results:**
+**Final Model Accuracy Results (sMAPE):**
 
 | Model                     | 1 week    | 2 weeks    | 3 weeks    |
 | ------------------------- | --------- | ---------- | ---------- |
